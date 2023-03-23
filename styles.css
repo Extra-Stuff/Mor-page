@@ -1,0 +1,116 @@
+
+body {
+    background-color: white;
+    text-align: center;
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Sacramento', cursive;
+    font-size: 6.25rem;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    margin-left: 20%;
+    margin-right: 20%;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+    font-family: 'Merriweather', serif;
+}
+
+.main-container {
+    position: relative; 
+}
+
+.header-container {
+    background-color: #BFACE2;
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 200px;
+}
+
+.canciones-container {
+    background-color: #e0eaff;
+    position: relative;
+    padding-top: 35px;
+    padding-bottom: 1000px;
+}
+
+.first-container {
+    background-color: #669999;
+    position: absolute;
+    left: 100px;
+    top: 250px;
+    padding-top: 50px;
+    height: 300px;
+    width: 550px;
+    border-radius: 25px 25px 25px 25px;
+    transition: height 2s;
+}
+
+.first-container:hover {
+    height: 500px;
+}
+
+.second-container {
+    background-color: #669999;
+    position: absolute;
+    right: 100px;
+    top: 250px;
+    padding-top: 50px;
+    height: 300px;
+    width: 550px;
+    border-radius: 25px 25px 25px 25px;
+    transition: height 2s;
+}
+
+.second-container:hover {
+    height: 500px;
+}
+
+.footer-container {
+    background-color: #3E54AC;
+    position: relative;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+
+.button-bottom {
+    background-color: #ECF2FF;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    border-radius: 7px;
+    padding: 5px;
+}
+/*<p class="version">V 1.0</p>
+.version {
+    position: fixed;
+    bottom: 10px;
+    left: 0;
+    color: salmon;
+    text-decoration: none;
+}*/
